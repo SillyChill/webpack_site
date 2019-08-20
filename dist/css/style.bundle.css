@@ -1,0 +1,19 @@
+.product {
+  float: left;
+  text-decoration: none;
+  text-align: center; }
+  .product__list {
+    list-style: none;
+    padding: 0;
+    margin: 10px; }
+    .product__list li {
+      box-sizing: border-box;
+      background-color: #FFFFFF; }
+    .product__list a {
+      display: block;
+      margin: 10px;
+      box-sizing: border-box;
+      color: #000000; }
+    .product__list a:hover {
+      background-color: #FFD700;
+      color: #FFF; }
