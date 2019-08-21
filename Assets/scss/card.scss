@@ -1,0 +1,113 @@
+.card{
+	width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    &__head{
+    	width: 100%;
+    	justify-content: center;
+    	display: flex;
+    	margin-bottom: 15px;
+    }
+    &__middle{
+    	margin: 0;
+    	border-radius: 180px;
+    	border: 10px solid #ffc000;
+    	background-color: #FFF;
+    	height: 180px;
+    	width: 180px;
+    	justify-content: center;
+    	display: flex;
+    	box-shadow: 0 0 10px grey;
+    	img{
+    		height: 160px;
+    		margin: auto;
+    	}
+    }
+    &__name{
+    	text-align: center;
+    	font-size: x-large;
+    	padding: 15px;
+    	font-family: 'Arial', sans-serif;
+    	color: #444444;
+    }
+    &__composition{
+    	text-align: center;
+    	border-bottom: 2px solid #767675;
+    	border-top: 2px solid #767675;
+    	height: 40px;
+    	padding: 10px;
+    	a{
+    		text-decoration: none;
+    	margin: 10px;
+    	border-bottom: 1px solid #1f90c5;
+    	color: #1f90c5;
+    	}
+    }
+    &__price{
+    	text-align: center;
+    	&__1{
+    		color: #E66853;
+    		font-size: x-large;
+    		margin: 10px;
+		}
+		&__2{
+			color: #454545;
+    		text-transform: uppercase;
+    		margin: 0;
+    		font-size: 14px;
+		}
+		&__quatity{
+			display: flex;
+			justify-content: space-around;
+			margin: 0px 15px;
+			&__value{
+				width: 45px;
+				height: 23px;
+				text-align: center;
+				border-radius: 5px;
+				border: 1px solid silver;
+				margin: 0;
+				padding: 0;
+			}
+		}
+		&__basket{
+			text-transform: uppercase;
+    		font-size: large;
+    		padding: 5px 30px;
+    		border-radius: 5px;
+    		margin-top: 10px;
+    		border:none;
+    		border-bottom: 1px solid #664d00;
+    		background-color: #ffc000;
+    		color: #FFF;
+    		font-weight: bold;
+    		text-shadow: 0 1px 2px #b48700;
+    		box-shadow: 0 0 10px grey;
+		}
+		&__basket:focus{
+		   	outline: none;
+		}
+    }
+}
+
+.minus{
+	height: 25px;
+	border-radius: 25px;
+	border: 1px solid silver;
+	color: silver;
+	background-color: #FFF;
+}
+.minus:focus{
+   	outline: none;
+}
+.plus{
+	height: 25px;
+	border-radius: 25px;
+	border: 1px solid silver;
+	color: silver;
+	background-color: #FFF;
+}
+.plus:focus{
+   	outline: none;
+}
