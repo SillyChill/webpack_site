@@ -7,19 +7,22 @@
     <link rel="stylesheet" href="css/style.bundle.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c96c974afa.js"></script>
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+
+
   </head>
   <body>
     <header class="header">сделайте заказ на прямую из ресторана</header>
       <div class="main">
         <div class="product">
           <ul class="product__list">
-            <li class="product__list_upper"><a class="link_upper" href="#">Блины</a></li>
-            <li><a href="#">Шаурма</a></li>
-            <li><a href="#">Сендвичи</a></li>
-            <li><a href="#">Бургеры</a></li>
-            <li><a href="#">Курица & Картофель</a></li>
-            <li><a href="#">Тортилья & Салаты</a></li>
-            <li class="product__list_bottom"><a class="link_bottom" href="#">Напитки & Десерты</a></li>
+            <li class="product__list_upper list_item"><a class="link_upper" href="#pizza">Пицца</a></li>
+            <li class="list_item"><a href="#shaurma">Шаурма</a></li>
+            <li class="list_item"><a href="#sandwiches">Сендвичи</a></li>
+            <li class="list_item"><a href="#burgers">Бургеры</a></li>
+            <li class="list_item"><a href="#chicken">Курица & Картофель</a></li>
+            <li class="list_item"><a href="#salads">Тортилья & Салаты</a></li>
+            <li class="product__list_bottom list_item"><a class="link_bottom" href="#drinks">Напитки & Десерты</a></li>
           </ul>
           <div class="basket">
           <div class="basket__head">
@@ -43,7 +46,7 @@
         </div>
         <div class="menu">
 
-          <div class="card">
+           <!-- <div class="card">
             <div class="card__head">
               <img src="./i/markets/subway_logo.png">
             </div>
@@ -68,277 +71,7 @@
               </div>
               <button class="card__price__basket">в корзину</button>  
             </div>
-          </div>
-
-           <div class="card">
-            <div class="card__head">
-              <img src="./i/markets/subway_logo.png">
-            </div>
-            <div class="card__middle">
-              <img src="./i/sandwiches/ovoshnoy.png">
-            </div>
-            <div class="card__name">Овощной</div>
-            <div class="card__composition">
-              <a href="#">Соус и овощи на выбор</a>
-            </div>
-            <div class="card__price">
-              <p class="card__price__1">Цена: 110 руб.</p>
-              <p class="card__price__2">количество</p>
-              <div class="card__price__quatity">
-                <button class="minus">
-                  <i class="fas fa-minus"></i>
-                </button>
-                <input type="text" class="card__price__quatity__value" value="1">
-                <button class="plus">
-                  <i class="fas fa-plus"></i>
-                </button>
-              </div>
-              <button class="card__price__basket">в корзину</button>  
-            </div>
-          </div>
-
-           <div class="card">
-            <div class="card__head">
-              <img src="./i/markets/subway_logo.png">
-            </div>
-            <div class="card__middle">
-              <img src="./i/sandwiches/ovoshnoy.png">
-            </div>
-            <div class="card__name">Овощной</div>
-            <div class="card__composition">
-              <a href="#">Соус и овощи на выбор</a>
-            </div>
-            <div class="card__price">
-              <p class="card__price__1">Цена: 110 руб.</p>
-              <p class="card__price__2">количество</p>
-              <div class="card__price__quatity">
-                <button class="minus">
-                  <i class="fas fa-minus"></i>
-                </button>
-                <input type="text" class="card__price__quatity__value" value="1">
-                <button class="plus">
-                  <i class="fas fa-plus"></i>
-                </button>
-              </div>
-              <button class="card__price__basket">в корзину</button>  
-            </div>
-          </div>
-
-           <div class="card">
-            <div class="card__head">
-              <img src="./i/markets/subway_logo.png">
-            </div>
-            <div class="card__middle">
-              <img src="./i/sandwiches/ovoshnoy.png">
-            </div>
-            <div class="card__name">Овощной</div>
-            <div class="card__composition">
-              <a href="#">Соус и овощи на выбор</a>
-            </div>
-            <div class="card__price">
-              <p class="card__price__1">Цена: 110 руб.</p>
-              <p class="card__price__2">количество</p>
-              <div class="card__price__quatity">
-                <button class="minus">
-                  <i class="fas fa-minus"></i>
-                </button>
-                <input type="text" class="card__price__quatity__value" value="1">
-                <button class="plus">
-                  <i class="fas fa-plus"></i>
-                </button>
-              </div>
-              <button class="card__price__basket">в корзину</button>  
-            </div>
-          </div>
-
-           <div class="card">
-            <div class="card__head">
-              <img src="./i/markets/subway_logo.png">
-            </div>
-            <div class="card__middle">
-              <img src="./i/sandwiches/ovoshnoy.png">
-            </div>
-            <div class="card__name">Овощной</div>
-            <div class="card__composition">
-              <a href="#">Соус и овощи на выбор</a>
-            </div>
-            <div class="card__price">
-              <p class="card__price__1">Цена: 110 руб.</p>
-              <p class="card__price__2">количество</p>
-              <div class="card__price__quatity">
-                <button class="minus">
-                  <i class="fas fa-minus"></i>
-                </button>
-                <input type="text" class="card__price__quatity__value" value="1">
-                <button class="plus">
-                  <i class="fas fa-plus"></i>
-                </button>
-              </div>
-              <button class="card__price__basket">в корзину</button>  
-            </div>
-          </div>
-
-           <div class="card">
-            <div class="card__head">
-              <img src="./i/markets/subway_logo.png">
-            </div>
-            <div class="card__middle">
-              <img src="./i/sandwiches/ovoshnoy.png">
-            </div>
-            <div class="card__name">Овощной</div>
-            <div class="card__composition">
-              <a href="#">Соус и овощи на выбор</a>
-            </div>
-            <div class="card__price">
-              <p class="card__price__1">Цена: 110 руб.</p>
-              <p class="card__price__2">количество</p>
-              <div class="card__price__quatity">
-                <button class="minus">
-                  <i class="fas fa-minus"></i>
-                </button>
-                <input type="text" class="card__price__quatity__value" value="1">
-                <button class="plus">
-                  <i class="fas fa-plus"></i>
-                </button>
-              </div>
-              <button class="card__price__basket">в корзину</button>  
-            </div>
-          </div>
-
-           <div class="card">
-            <div class="card__head">
-              <img src="./i/markets/subway_logo.png">
-            </div>
-            <div class="card__middle">
-              <img src="./i/sandwiches/ovoshnoy.png">
-            </div>
-            <div class="card__name">Овощной</div>
-            <div class="card__composition">
-              <a href="#">Соус и овощи на выбор</a>
-            </div>
-            <div class="card__price">
-              <p class="card__price__1">Цена: 110 руб.</p>
-              <p class="card__price__2">количество</p>
-              <div class="card__price__quatity">
-                <button class="minus">
-                  <i class="fas fa-minus"></i>
-                </button>
-                <input type="text" class="card__price__quatity__value" value="1">
-                <button class="plus">
-                  <i class="fas fa-plus"></i>
-                </button>
-              </div>
-              <button class="card__price__basket">в корзину</button>  
-            </div>
-          </div>
-
-           <div class="card">
-            <div class="card__head">
-              <img src="./i/markets/subway_logo.png">
-            </div>
-            <div class="card__middle">
-              <img src="./i/sandwiches/ovoshnoy.png">
-            </div>
-            <div class="card__name">Овощной</div>
-            <div class="card__composition">
-              <a href="#">Соус и овощи на выбор</a>
-            </div>
-            <div class="card__price">
-              <p class="card__price__1">Цена: 110 руб.</p>
-              <p class="card__price__2">количество</p>
-              <div class="card__price__quatity">
-                <button class="minus">
-                  <i class="fas fa-minus"></i>
-                </button>
-                <input type="text" class="card__price__quatity__value" value="1">
-                <button class="plus">
-                  <i class="fas fa-plus"></i>
-                </button>
-              </div>
-              <button class="card__price__basket">в корзину</button>  
-            </div>
-          </div>
-
-           <div class="card">
-            <div class="card__head">
-              <img src="./i/markets/subway_logo.png">
-            </div>
-            <div class="card__middle">
-              <img src="./i/sandwiches/ovoshnoy.png">
-            </div>
-            <div class="card__name">Овощной</div>
-            <div class="card__composition">
-              <a href="#">Соус и овощи на выбор</a>
-            </div>
-            <div class="card__price">
-              <p class="card__price__1">Цена: 110 руб.</p>
-              <p class="card__price__2">количество</p>
-              <div class="card__price__quatity">
-                <button class="minus">
-                  <i class="fas fa-minus"></i>
-                </button>
-                <input type="text" class="card__price__quatity__value" value="1">
-                <button class="plus">
-                  <i class="fas fa-plus"></i>
-                </button>
-              </div>
-              <button class="card__price__basket">в корзину</button>  
-            </div>
-          </div>
-
-           <div class="card">
-            <div class="card__head">
-              <img src="./i/markets/subway_logo.png">
-            </div>
-            <div class="card__middle">
-              <img src="./i/sandwiches/ovoshnoy.png">
-            </div>
-            <div class="card__name">Овощной</div>
-            <div class="card__composition">
-              <a href="#">Соус и овощи на выбор</a>
-            </div>
-            <div class="card__price">
-              <p class="card__price__1">Цена: 110 руб.</p>
-              <p class="card__price__2">количество</p>
-              <div class="card__price__quatity">
-                <button class="minus">
-                  <i class="fas fa-minus"></i>
-                </button>
-                <input type="text" class="card__price__quatity__value" value="1">
-                <button class="plus">
-                  <i class="fas fa-plus"></i>
-                </button>
-              </div>
-              <button class="card__price__basket">в корзину</button>  
-            </div>
-          </div>
-
-           <div class="card">
-            <div class="card__head">
-              <img src="./i/markets/subway_logo.png">
-            </div>
-            <div class="card__middle">
-              <img src="./i/sandwiches/ovoshnoy.png">
-            </div>
-            <div class="card__name">Овощной</div>
-            <div class="card__composition">
-              <a href="#">Соус и овощи на выбор</a>
-            </div>
-            <div class="card__price">
-              <p class="card__price__1">Цена: 110 руб.</p>
-              <p class="card__price__2">количество</p>
-              <div class="card__price__quatity">
-                <button class="minus">
-                  <i class="fas fa-minus"></i>
-                </button>
-                <input type="text" class="card__price__quatity__value" value="1">
-                <button class="plus">
-                  <i class="fas fa-plus"></i>
-                </button>
-              </div>
-              <button class="card__price__basket">в корзину</button>  
-            </div>
-          </div>
+          </div> -->
 
         </div>
         </div>

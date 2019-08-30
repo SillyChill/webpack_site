@@ -5,3 +5,6 @@ import './scss/body.scss';
 import './scss/menu.scss';
 import './scss/main.scss';
 import './scss/card.scss';
+import './js/scripts.js';
+import './scss/active.scss';
+import jQuery from 'jquery';

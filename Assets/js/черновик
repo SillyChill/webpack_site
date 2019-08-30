@@ -1,0 +1,11 @@
+$(document).on(	'click', '.minus', function () {
+let numberValue = $(this).parent().find(".number__window"); 
+if (numberValue[0].value > 0) numberValue[0].value--; 
+});
+
+
+$('.list_item').on('click', function () {
+	.addClass("active");
+	var select_item = $(this).attr("href");
+	generate_card(select_item);
+
